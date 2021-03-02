@@ -1,0 +1,354 @@
+*{
+    margin: 0; 
+    padding: 0;
+  }
+  body {
+    background-color: #9cada4;
+  }
+  
+  /*  WebKit is a HTML/CSS web browser rendering engine for Safari/Chrome */
+  ::-webkit-scrollbar {
+    width: 10px;
+      background-color: yellow;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+   background: #f1f1f1; 
+   background-color: black;
+  }
+   
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+   background-color: grey;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+   background-color: #ebdc87;
+  } 
+  
+  /* Navigation Bar */
+  
+  ul {
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #204051;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+  
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: #ffd36b;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  li a:active {
+    background-color: grey;
+    font-weight: bold;
+  }
+  
+  /* Home Page/Hero */
+  .hero-image {
+    background-image:  url("https://cdn.pixabay.com/photo/2019/04/20/10/16/eiffel-tower-4141381_960_720.jpg");
+    height: 500px;
+    width: 100%;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding-left:0px;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+  }
+  #paris {
+    margin: 0px;
+    color: gray;
+    font-size: 80px;
+    font-family: 'Mr Bedfort', cursive;
+    text-shadow: 2px 2px black;
+    text-align: center;
+  }
+  
+  .info {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 500px;
+    background: black;
+    padding:60px;
+    text-shadow: 2px 2px gray;
+  }
+  /* To-Do Page */
+  .grid-containerx {
+    display: grid;
+    grid-gap: 5px;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+  }
+  
+  .grid-itemx {
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+    font-size: 15px;
+    width: 350px;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 15px;
+    background-color: #9cada4;
+    border-style: double;
+    border-width: 2px;
+    
+  }
+  
+  .item1x{
+    grid-column: 1 ;
+    grid-row: 1;
+  }
+  
+  
+  .item2x {
+    grid-column: 2 ;
+    grid-row: 1 ;
+  
+  }
+  
+  .item3x {
+    grid-column: 1 ;
+    grid-row: 2;
+  }
+  .item4x {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .item5x {
+    grid-column: 1 ;
+    grid-row: 3;
+  }
+  .item6x {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  
+  .toDoPic {
+    height: 200px;
+    width: 220px;
+    border-radius: 15px;
+  }
+  
+  .title {
+    font-family: 'Dancing Script', cursive;
+  font-size:35px;
+    margin:10px;
+    padding:10px;
+  }
+  
+  .description {
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+    font-weight: bolder;
+  }
+  /* Contact Page */
+  
+  .contactBody {
+    background-image: url('https://cdn.pixabay.com/photo/2016/07/19/04/40/moon-1527501_960_720.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  
+  .contactBox {
+    margin: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+     margin-top: 25px;
+     margin-bottom: 25px;
+    color:white;
+    width: 500px;
+    border: 10px #005086;
+    border-style: inset;
+    padding: 60px;
+   box-shadow: 10px 10px 5px black;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/09/15/18/stars-1246590_960_720.jpg");
+    background-repeat: repeat;
+  }
+
+  /* Fun Facts Page */
+
+  .grid-containerff {
+    vertical-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2px;
+    padding: 2px;
+    width: 1300px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+  }
+
+.grid-itemxx{
+  vertical-align: center;
+  text-align: center;
+  margin: 0px;
+  padding: 15px;
+  font-size: 15px;
+  width: 50%;
+  box-shadow: 10px 10px 5px black;
+  border-radius: 15px;
+  background-color: #dddddd;
+  border-style: double;
+  border-width: 2px;
+}
+
+  .ffpage{
+      background-color: #dddddd;
+
+  
+  }
+  .descriptionff {
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+    font-weight: bolder;
+  }
+  
+  .grid-item__ff {
+    display: inline-block;
+    margin: auto auto;
+    text-align: center;
+    padding: 25px;
+    font-size: 15px;
+    width: 350px;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 15px;
+    background-color: #dddddd;
+    border-style: double;
+    border-width: 2px;
+    
+  }
+.ff{
+  margin: auto auto;
+}
+
+  h2 {
+    text-align: center;
+    padding: 20px;
+  }
+
+
+  /* Footer */
+  footer {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 80px;
+  }
+  
+  .grid-container {
+    display: grid;
+    background-color: #204051;
+  }
+  
+  #parisText {
+    color: white;
+    font-family: 'Niconne', cursive;
+    font-size: 20px;
+    margin-left: 120px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    padding: 0px;
+  }
+  .item1 {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+    margin-left: 25px;
+     height:20px;
+     
+  }
+  
+  .item2 {
+    grid-column: 1;
+    grid-row: 2 / span 2;
+   margin-left: 200px;
+     height:20px;
+  }
+  
+  .item3 {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  margin-right: 255px;
+    height:80px;
+  }
+  
+  .item4 {
+  grid-column: 3;
+  grid-row: 1 / span 3;
+  margin-right: 150px;
+  margin-left: 0px;
+  height:80px;
+  }
+  
+  .socials {
+    width: 20px; 
+    float:left; 
+    height:20px; 
+    padding: 5px 10px ;
+    margin: auto
+  } 
+  
+  #parisLogo{
+    margin-top: 3px;
+    margin-left: 120px;
+    width:60px;
+    height:70px;
+  }
+  
+  #mePic {
+    border-radius: 50%;
+    margin-top: 5px;
+    width:45px;
+    height: 45px;
+  }
+  
+  #byMe {
+    margin-top: 0px;
+    font-family: 'Tangerine', cursive;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  
